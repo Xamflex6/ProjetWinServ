@@ -2,13 +2,13 @@
 
 ## Reset du Switch
 
-Supprimer les fichiers de config dans le working et dans le certified
+### Supprimer les fichiers de config dans le working et dans le certified
 
 ```cfg
 rm /flash/working/*.cfg
 rm /flash/certified/*/cfg
 ```
-Redémarre le switch
+### Redémarre le switch
 
 ```cfg
 reload all
@@ -16,10 +16,25 @@ reload all
 
 ## Changer le nom du switch
 
-Configurer le nom du switch
+### Configurer le nom du switch
 
 ```cfg
-system name <name>
+system name SwBelgique
 ```
+
+### Changer le prompt du switch
+
+```cfg
+session prompt default system-name
+```
+
+
+
+
+
+
+
+
+
 
 
